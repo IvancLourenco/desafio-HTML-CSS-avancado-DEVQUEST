@@ -1,0 +1,42 @@
+@media(max-width:425px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+    .header-container a img{
+    width: 150px;
+    padding: 5px 10px;
+ }
+ .hero{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    
+ }
+
+ .hero .item img{
+    width: 290px;
+    margin-bottom: 30px;
+    
+ }
+
+ .hero .item .subtitulo-hero{
+    font-size: 2.8rem;
+    align-items: center;
+ }
+
+ .hero .item p{
+    font-size: 1.4rem;
+ }
+
+ .hero .btn-register a{
+    margin: 5px 20px;
+    padding: 10px 7rem;
+ }
+
+ .footer {
+    margin-left: 8rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+}
