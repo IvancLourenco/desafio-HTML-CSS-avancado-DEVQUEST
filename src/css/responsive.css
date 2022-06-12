@@ -8,14 +8,13 @@
  }
  .hero{
     flex-direction: column;
-    text-align: center;
-    margin-bottom: 20px;
+    align-items: flex-start;
     
  }
 
  .hero .item img{
     width: 290px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     
  }
 
@@ -26,15 +25,16 @@
 
  .hero .item p{
     font-size: 1.4rem;
+    margin-bottom: 10px;
  }
 
  .hero .btn-register a{
-    margin: 5px 20px;
+   justify-content:center;
     padding: 10px 7rem;
+    align-items: center;
  }
 
  .footer {
-    margin-left: 8rem;
     flex-direction: column;
     text-align: center;
     justify-content: center;
