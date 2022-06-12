@@ -1,21 +1,21 @@
 @media(max-width:425px){
     body{
         background-image: url(../images/bg-mobile.svg);
-    }
-    .header-container a img{
+ }
+
+ .header-container a img{
     width: 150px;
     padding: 5px 10px;
  }
+
  .hero{
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start;  
  }
 
  .hero .item img{
     width: 290px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
  }
 
  .hero .item .subtitulo-hero{
